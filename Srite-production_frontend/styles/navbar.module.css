@@ -1,0 +1,31 @@
+.title{
+    color: red !important;
+    font-size: 20px;
+}
+
+.dropdown{
+    position: relative;
+}
+.dropdownMenu{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 100%;
+    left: -23%;
+    padding: .3rem 1rem;
+    min-width: 180px;
+    display: none;
+    transition: all ease-in 0.2s;
+}
+.dropdown:hover> .dropdownMenu  {
+    display: block;
+}
+.dropdownMenu a {
+    display: block;
+    padding: 0.3rem 0;
+    color: white;
+    text-transform: capitalize;
+    transition: all ease-in 0.5s;
+}
+.dropdownMenu a:hover{
+    color: #A3238D;
+}

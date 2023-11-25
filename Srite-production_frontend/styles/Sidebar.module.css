@@ -1,0 +1,71 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarTop {
+  height: 91px;
+  background: linear-gradient(
+    to left,
+    rgba(224, 78, 203, 0.55),
+    rgba(187, 80, 251, 0.55)
+  );
+  backdrop-filter: blur(14px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.sidebarBottom {
+  background: linear-gradient(
+    to left,
+    rgba(224, 78, 203, 0.6),
+    rgba(187, 80, 251, 0.6)
+  );
+  backdrop-filter: blur(10px);
+}
+
+.profileBtn {
+  background: linear-gradient(rgba(187, 80, 251, 0.6), rgba(224, 78, 203, 0.6));
+  backdrop-filter: blur(8px);
+}
+
+.sidebarBottom {
+  flex-basis: 100%;
+}
+
+.profileBtn {
+  border-radius: 10px 10px 0 0;
+}
+
+.dashboardHeader {
+  height: 83px;
+  width: 100%;
+  padding: 0 16px;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.dashboardHeader > div:first-child {
+  align-items: center;
+  flex-basis: 55%;
+}
+.dashboardHeader > div:last-child {
+  align-items: center;
+  flex: 1;
+}
+
+.dashboardHeader > div:first-child,
+.dashboardHeader > div:last-child {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,51 @@
+.uploadCon {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.uploadCon h2 {
+    font-size: 1.9rem;
+    line-height: 24px;
+    font-weight: 700;
+    background: linear-gradient(to right,
+            rgba(36, 61, 196, 1),
+            rgba(132, 19, 185, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.uploadCon label{
+    cursor: pointer;
+}
+.uploadContent{
+    padding: 3rem;
+    border: 1px dotted #781367;
+}
+
+.uploadCon button {
+    background-color: #8413B9;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+    font-size: 16px;
+    padding: 0.4rem 1.3rem;
+    border-radius: .8rem;
+    outline: none;
+    cursor: pointer;
+}
+
+.uploadCon h3 {
+    font-size: 1.3rem;
+    line-height: 24px;
+    font-weight: 500;
+    background: linear-gradient(to right,
+            rgba(36, 61, 196, 1),
+            rgba(132, 19, 185, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 1rem 0;
+}

@@ -1,0 +1,41 @@
+.customModal {
+    border-radius: 18px;
+    padding: 2rem 4rem;
+}
+
+.customModal button {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(to right,
+            rgba(36, 61, 196, 1),
+            rgba(132, 19, 185, 1));
+}
+
+.customModal img{
+    height: 250px;
+    width: 250px !important;
+}
+.customModal h4, .customModal a{
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(
+      to right,
+      rgba(36, 61, 196, 1),
+      rgba(132, 19, 185, 1)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin: 1rem 0;
+    letter-spacing: 0.14px;
+}
+
+.customModal a {
+    font-size: 15px !important;
+    text-transform: uppercase;
+    display: block;
+}
